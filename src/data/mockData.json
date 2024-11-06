@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "title": "Login Button Not Responsive",
+    "text": "The login button on the homepage does not respond when clicked. This issue occurs on both mobile and desktop versions. Please investigate the JavaScript event handlers. It might also help to check the <a href='https://www.example.com/docs/login'>documentation</a> for button interactions.",
+    "tags": ["bug", "ui", "high-priority"]
+  },
+  {
+    "id": "2",
+    "title": "Data Not Loading on Dashboard",
+    "text": "Users report that the data on the dashboard does not load. This may be related to the recent API changes. Check the API response for errors or changes in the data structure. Refer to the <a href='https://www.example.com/api/docs'>API documentation</a> for more details.",
+    "tags": ["bug", "dashboard", "api"]
+  },
+  {
+    "id": "3",
+    "title": "User Profile Update Fails",
+    "text": "When users attempt to update their profile information, they receive an error message stating that the update failed. This needs urgent attention as it affects user experience. See the error logs for details.",
+    "tags": ["bug", "user-experience", "critical"]
+  },
+  {
+    "id": "4",
+    "title": "Feature Request: Dark Mode",
+    "text": "A user has requested the addition of a dark mode option for the application. This feature could enhance usability in low-light environments. Consider gathering more user feedback before proceeding.",
+    "tags": ["feature", "enhancement", "usability"]
+  },
+  {
+    "id": "5",
+    "title": "Broken Link in Help Section",
+    "text": "There is a broken link in the help section that leads to a non-existent page. Update the link to point to the new help documentation URL.",
+    "tags": ["bug", "documentation", "low-priority"]
+  },
+  {
+    "id": "6",
+    "title": "Add Search Functionality to Issues Page",
+    "text": "Users have requested a search functionality on the issues page to filter through existing issues quickly. This will improve the workflow and efficiency of the team.",
+    "tags": ["feature", "improvement", "ui"]
+  },
+  {
+    "id": "7",
+    "title": "Notification Email Not Sending",
+    "text": "Users are not receiving notification emails after certain actions (e.g., comments, task updates). Check the email server configuration and logs to identify the issue.",
+    "tags": ["bug", "notifications", "high-priority"]
+  },
+  {
+    "id": "8",
+    "title": "Performance Issues in Report Generation",
+    "text": "The report generation feature is taking an unusually long time to complete. Investigate the performance bottlenecks, possibly related to data retrieval or processing.",
+    "tags": ["bug", "performance", "medium-priority"]
+  }
+]

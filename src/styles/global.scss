@@ -1,0 +1,25 @@
+.header {
+  @apply py-4 border-b bg-zinc-700;
+  @apply sticky top-0 z-50;
+
+  .header-content {
+    @apply flex justify-between items-center max-w-7xl mx-auto px-4;
+  }
+
+  .header-title {
+    @apply text-2xl font-bold text-slate-100;
+  }
+}
+
+.issues-container {
+  @apply max-w-7xl mx-auto px-8 py-8 bg-neutral-900 rounded-lg;
+}
+.app-container {
+  height: auto;
+  padding: 2rem;
+  height: 100vh;
+}
+
+.card-actions {
+  @apply flex justify-end items-center;
+}

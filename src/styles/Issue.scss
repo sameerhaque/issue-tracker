@@ -1,0 +1,140 @@
+.issue-form {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    &__title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 1.5rem;
+    }
+  
+    &__group {
+      margin-bottom: 1.2rem;
+  
+      label {
+        display: block;
+        font-weight: 500;
+        color: #555;
+        margin-bottom: 0.5rem;
+      }
+  
+      .issue-form__input,
+      .issue-form__textarea {
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 1rem;
+        color: #333;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        outline: none;
+  
+        &:focus {
+          border-color: #007bff;
+          box-shadow: 0 0 3px rgba(0, 123, 255, 0.3);
+        }
+      }
+  
+      .issue-form__textarea {
+        min-height: 100px;
+        resize: vertical;
+      }
+    }
+  
+    &__tags {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
+  
+      .issue-form__tag {
+        display: flex;
+        align-items: center;
+        padding: 0.3rem 0.75rem;
+        font-size: 0.9rem;
+        color: #333;
+        background-color: #e2e6ea;
+        border-radius: 20px;
+  
+        .issue-form__tag-remove {
+          font-size: 1rem;
+          color: #dc3545;
+          background: none;
+          border: none;
+          cursor: pointer;
+          margin-left: 0.5rem;
+  
+          &:hover {
+            color: #bd2130;
+          }
+        }
+      }
+  
+      .issue-form__tag-input {
+        flex: 1;
+        min-width: 150px;
+        padding: 0.5rem;
+        font-size: 0.9rem;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+  
+        &:focus {
+          border-color: #007bff;
+        }
+      }
+  
+      .issue-form__tag-add {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  
+    &__actions {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 1.5rem;
+  
+      .issue-form__button {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        font-weight: 500;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+  
+        &--cancel {
+          color: #333;
+          background-color: #e0e0e0;
+          margin-right: 0.5rem;
+  
+          &:hover {
+            background-color: #c0c0c0;
+          }
+        }
+  
+        &--submit {
+          color: #fff;
+          background-color: #007bff;
+  
+          &:hover {
+            background-color: #0056b3;
+          }
+        }
+      }
+    }
+  }
+  
